@@ -20,10 +20,14 @@ body {
 }
 
 #logo {
-  height: 250px;
   align-items: center;
-  padding-left: 450px;
-  padding-bottom: 30px;
+  height: 300px;
+  width: 250px;
+}
+
+.img-responsive {
+  margin: 0 auto;
+  display: block;
 }
 
 .jumbotron {
@@ -109,7 +113,7 @@ h5 {
 }
 
 .parallax1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url("../img/bg2.jpg");
 
   /* Set a specific height */
@@ -237,4 +241,15 @@ label {
   font-size: 80px;
   color: blanchedalmond;
   background-color: rgb(46, 45, 43);
+}
+
+.btn {
+  color: black;
+  width: 150px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  width: 200px;
 }
