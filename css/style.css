@@ -25,6 +25,15 @@ body {
   padding-bottom: 30px;
 }
 
+.jumbotron {
+  font-size: 30px;
+  padding-right: 50px;
+  color: black;
+  background-color: rgb(175, 173, 169);
+}
+.jumbotron h2 {
+  padding-right: 50px;
+}
 h3 {
   font-size: 300px;
   font-weight: bold;
@@ -36,13 +45,13 @@ h3 {
   font-size: 50px;
   padding-top: 30px;
   padding-left: 45px;
-  color: rgb(10, 5, 5);
+  color: beige;
 }
 
 p {
   font-size: 20px;
   padding-bottom: 80px;
-  color: rgb(5, 2, 2);
+  color: beige;
 }
 /*menu*/
 h5 {
@@ -60,14 +69,13 @@ h5 {
 }
 
 .parallax {
-  /* The image used */
+  /* The image used 
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
     url("../img/bg.jpg");
-
+  */
   /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
+  background-color: blanchedalmond;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,19 +108,24 @@ h5 {
 }
 
 .parallax1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../img/bg2.jpg");
 
   /* Set a specific height */
-  min-height: 500px;
-  min-width: 400px;
+  min-height: 1500px;
+  min-width: 800px;
   /* Create the parallax scrolling effect */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.imgr {
+  height: 200px;
+  width: 250px;
+}
+
 #bookatable {
-  background: url(https://images.unsplash.com/photo-1452800185063-6db5e12b8e2e)
+  background: url(https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
     no-repeat center center fixed;
   background-size: cover;
 }
@@ -178,8 +191,6 @@ label {
 }
 
 .contact-us {
-  background: url("http://www.dentons.com/~/media/Images/Website/Background%20Images/Landing%20Pages/Whats%20Different%20About%20Dentons/Contact%20us/contact3.jpg")
-    no-repeat center fixed;
   background-size: cover;
   min-height: 300px;
   color: #fff;
